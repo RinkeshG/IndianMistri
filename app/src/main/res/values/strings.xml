@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Offpay</string>
+
+
+    <string name="FACEBOOK_APP_ID">1030643393745380</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">dd2678886130167074a776ac4fc38dde</string>
+</resources>
