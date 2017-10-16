@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rinkesh.offpay.bookelcetrician"
+    android:background="#FF8A65">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/electrician"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book an Electrcian"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp">
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/roundwhiterectangle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:text="Schedule for later"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:onClick="laterbook"/>
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundwhiterectangle"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:text="Book instantly"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@drawable/roundwhiterectangle"
+            android:text="choose another service"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

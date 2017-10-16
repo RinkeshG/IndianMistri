@@ -24,22 +24,30 @@
 
         <activity
             android:name=".splash"
-            android:theme="@style/splashthem">
+            android:theme="@style/splashthem" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppLoginTheme"
+            tools:replace="android:theme" />
+        <activity
+            android:name=".signup"
+            android:label="Sign Up" />
+        <activity
+            android:name=".Dashboard"
+            android:label="Indian Mistri"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
-            android:theme="@style/AppLoginTheme"
-            tools:replace="android:theme"/>
-        <activity android:name=".signup"
-            android:label="Sign Up"/>
         <activity
-            android:name=".Dashboard"
-            android:label="Indian Mistri"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name=".bookelcetrician"
+            android:theme="@style/splashthem" />
+        <activity android:name=".Shedulelater" />
+        <activity android:name=".confirmation" />
+        <activity android:name=".Instantbook"></activity>
     </application>
 
 </manifest>
