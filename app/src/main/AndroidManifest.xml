@@ -46,8 +46,16 @@
             android:name=".bookelcetrician"
             android:theme="@style/splashthem" />
         <activity android:name=".Shedulelater" />
-        <activity android:name=".confirmation" />
-        <activity android:name=".Instantbook"></activity>
+        <activity
+            android:name=".confirmation"
+            android:theme="@style/splashthem" />
+        <activity android:name=".Instantbook" />
+        <activity
+            android:name=".MechanicInfo"
+            android:label="Service Details" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Profile"></activity>
     </application>
 
 </manifest>

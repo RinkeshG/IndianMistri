@@ -5,17 +5,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class confirmation extends AppCompatActivity {
+public class Payment extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_confirmation);
+        setContentView(R.layout.activity_payment);
     }
 
-    public void CheckStatus(View view) {
+    public void completepayment(View view) {
 
-        Intent intent = new Intent(this, MechanicInfo.class);
+        Intent intent = new Intent(this, Feedback.class);
         startActivity(intent);
         finish();
     }

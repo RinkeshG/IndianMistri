@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rinkesh.offpay.MechanicInfo"
+    android:background="#FF8A65">
+
+
+    <RelativeLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/ebonyclay"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cleaning" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Service Name"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundwhiterectangle"
+        android:text="Confirm Service Completion"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:onClick="completeconfirm"
+        android:layout_marginBottom="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
+
+
+
