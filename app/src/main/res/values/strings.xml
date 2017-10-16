@@ -1,7 +1,13 @@
 <resources>
-    <string name="app_name">Offpay</string>
+    <string name="app_name">Indian Mistri</string>
 
 
     <string name="FACEBOOK_APP_ID">1030643393745380</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">dd2678886130167074a776ac4fc38dde</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
