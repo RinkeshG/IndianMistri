@@ -82,13 +82,20 @@ public class Dashboard extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.dashboard) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.bookservice) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.mybooking) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.wallet) {
+
+        } else if (id == R.id.Profile) {
+
+            Intent intent = new Intent(this, Profile.class);
+            startActivity(intent);
+
+        } else if (id == R.id.getincontact) {
 
         } else if (id == R.id.nav_share) {
 

@@ -3,21 +3,33 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/bookservice"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Book Services" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/mybooking"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="My Bookings" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/wallet"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Paytm Wallet" />
+
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="My Profile" />
+
+        <item
+            android:id="@+id/getincontact"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Get in Contact" />
+
+
     </group>
 
     <item android:title="Communicate">
@@ -25,11 +37,11 @@
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Invite and Earn" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Rate us" />
         </menu>
     </item>
 

@@ -49,13 +49,15 @@
         <activity
             android:name=".confirmation"
             android:theme="@style/splashthem" />
-        <activity android:name=".Instantbook" />
+        <activity android:name=".Instantbook"
+            android:label="Book Now"/>
         <activity
             android:name=".MechanicInfo"
             android:label="Service Details" />
         <activity android:name=".Payment" />
         <activity android:name=".Feedback" />
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".Profile"
+            android:theme="@style/splashthem"/>
     </application>
 
 </manifest>
